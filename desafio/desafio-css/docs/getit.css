@@ -51,6 +51,10 @@ body {
 }
 
 .form-card-title, .autoresize{
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  border-style: none;
   appearance: none;
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
@@ -58,11 +62,16 @@ body {
 }
 
 .form-card {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
   display: flex;
   flex-direction: column;
   width: 50rem;
   background-color: white;
   justify-content: space-between;
+  border-radius: 1rem;
+  outline: none;
   height: 12rem;
   padding: 0.5rem;
   margin: 1rem 0 2.5rem 0;
@@ -84,12 +93,81 @@ body {
   height: 5rem;
   padding: 1rem;
   width: 20rem;
+  border-radius: 0.7rem;
   margin: 0 0 2rem 0;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-.card-title, .card-content {
+.card-title{
   font-family: 'Permanent Marker', cursive;
+}
+.card-content {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 0.8rem;
+}
+
+.card-color-1 {
+  background-color: #ead3a7;
+}
+
+.card-color-2 {
+  background-color: #9de0f5;
+}
+
+.card-color-3 {
+  background-color: #ef89ba;
+}
+
+.card-color-4 {
+  background-color:  #fae890;
+}
+
+.card-color-5 {
+  background-color: #abe9c1;
+}
+
+.card-rotation-1 {
+  transform: rotate(1deg);
+}
+
+.card-rotation-2 {
+  transform: rotate(-1deg);
+}
+
+.card-rotation-3 {
+  transform: rotate(1deg);
+}
+
+.card-rotation-4 {
+  transform: rotate(-1deg);
+}
+
+.card-rotation-5 {
+  transform: rotate(1deg);
+}
+
+.card-rotation-6 {
+  transform: rotate(-1deg);
+}
+
+.card-rotation-7 {
+  transform: rotate(1deg);
+}
+
+.card-rotation-8 {
+  transform: rotate(-1deg);
+}
+
+.card-rotation-9 {
+  transform: rotate(1deg);
+}
+
+.card-rotation-10 {
+  transform: rotate(-1deg);
+}
+
+.card-rotation-11 {
+  transform: rotate(1deg);
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
