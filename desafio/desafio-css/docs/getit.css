@@ -21,6 +21,96 @@ Algumas informações úteis e dicas:
       #abe9c1
   - Sombra: https://codepen.io/sdthornton/pen/wBZdXq
  */
+.appbar {
+  display: flex;
+  flex-direction: row;
+  background-color:  #f7d736;
+  align-items: center;
+  margin : 0;
+}
+.logo {
+  height: 4rem;
+}
+.subtitle{
+  font-size: 1.5rem;
+  color: #2c2c2c;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.form-card{
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  margin: 2rem;
+
+}
+.form-card-title{
+  justify-content: left;
+  font-size: 1.5rem;
+  color: #2c2c2c;
+  outline: none ;
+  border-style: none;
+  margin:0.5rem
+  }
+.autoresize{
+  position: relative;
+  -webkit-appearance: none;
+  appearance: none ;
+  outline: none ;
+  border-style: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+
+}
+.card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.btn{
+  margin: .5rem;
+  border-radius: .2rem;
+  border-color: none;
+  box-shadow: 0 1px 4px rgba(141, 141, 141, 0.6);
+}
+.card{
+  height: 10rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  margin: 1rem;
+  padding: .5rem;
+}
+.card-title{
+  justify-content: left;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5rem;
+  color: #2c2c2c;
+  outline: none ;
+  border-style: none;
+
+}
+.card-content{
+  justify-content: left;
+  font-family: 'Permanent Marker', cursive;
+  font-size: .8rem;
+  color: #2c2c2c;
+  outline: none ;
+  border-style: none;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  }
 
 html,
 body {
@@ -29,7 +119,7 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +167,52 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
+.card-color-1{
+  background-color: #ead3a7;
+}
+.card-color-2{
+  background-color: #9de0f5;
+}
+.card-color-3{
+  background-color: #ef89ba;
+} 
+.card-color-4{
+  background-color: #fae890;
+}
+.card-color-5{
+  background-color: #abe9c1;
+}
+.card-rotation-1{
+  transform: rotate(2deg);
+}
+.card-rotation-2{
+  transform: rotate(-2deg);
+}
+.card-rotation-3{
+  transform: rotate(2.5deg);
+}
+.card-rotation-4{
+  transform: rotate(-2.5deg);
+}
+.card-rotation-5{
+  transform: rotate(2.8deg);
+}
+.card-rotation-6{
+  transform: rotate(-2.8deg);
+}
+.card-rotation-7{
+  transform: rotate(3.5deg);
+} 
+.card-rotation-8{
+  transform: rotate(-3.5deg);
+} 
+.card-rotation-9{
+  transform: rotate(3deg);
+} 
+.card-rotation-10{
+  transform: rotate(-3deg);
+} 
+.card-rotation-11{
+  transform: rotate(7deg);
+} 
