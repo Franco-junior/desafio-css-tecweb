@@ -27,9 +27,74 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.appbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e0d426;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.logo {
+  height: 5rem;
+  margin: 1rem 0 1rem 1rem;
+}
+
+.subtitle {
+  margin-left: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-card-title, .autoresize{
+  appearance: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  border-color: white;
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  background-color: white;
+  justify-content: space-between;
+  height: 12rem;
+  padding: 0.5rem;
+  margin: 1rem 0 2.5rem 0;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 5rem;
+  padding: 1rem;
+  width: 20rem;
+  margin: 0 0 2rem 0;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-title, .card-content {
+  font-family: 'Permanent Marker', cursive;
+}
+
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +142,4 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
